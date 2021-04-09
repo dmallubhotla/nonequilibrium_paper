@@ -79,7 +79,7 @@ To simplify the notation, we define the following dimensionless quantities, keep
 	\mu &= \frac{\corr}{\Delta}
 \end{align}
 Because our model includes modified quasiparticle distribution functions, we must modify these terms in the response function as well as the gap.
-These appear in the $\tanh$ functions as an effective chemical potential.
+These appear in the $\tanh$ functions as an effective chemical potential.\todo{Write this out a bit more, sketching out the actual derivation.}
 Then the expression for the conductivity at arbitrary momentum and frequency in Nam\cite{Nam1967}, with the modified distribution function, becomes:
 \begin{equation}
 	\sigma(\kappa, \xi) = -i \frac{3 \sigma_0}{4} \frac{1}{\xi}\left[\int_{1 - \xi}^{1}\dd{\xi} \tanh(\frac{\xi + \xi' - \mu}{2 t}) I_1 + \int_{1}^{\infty} \dd{\xi'} \left( \tanh(\frac{\xi + \xi' - \mu}{2t}) I_1  - \tanh(\frac{\xi' - \mu}{2t})I_2 \right) \right] \label{eq:nam}
@@ -96,6 +96,9 @@ with
 \end{align}
 We note here the similarity between \eqref{eq:nam} and the response functions in Catelini et. al\cite{Catelani2010}.\todo{develop more. It will probably be very interesting to actually show how their expressions match ours in the first approximation where our $q = 0$ and their quasiparticle distribution function is approximated.}
 
+\subsection{Noise calculation}
+
+\section{Results}
 
 \printbibliography
 \listoftodos
